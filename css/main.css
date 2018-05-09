@@ -1,0 +1,405 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+html,
+body {
+	width: 100%;
+}
+body {
+	font-family: "Verdana", sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	max-width: 920px;
+	margin: auto;
+	background-color: #EEEDED;
+}
+
+/*Common styles*/
+.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.font-weigth-bold {
+	font-weight: 700;
+}
+.text-center {
+	text-align: center;
+}
+
+
+.bg-color-black {
+	background-color: #454552;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+.margin-top-20 {
+	margin-top: 20px;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+.padding-15-0 {
+	padding: 15px;
+}
+.bg-color-white {
+	background-color: #fff;
+}
+
+
+.order-1 {
+	-webkit-order: 1;
+	-moz-order: 1;
+	-ms-order: 1;
+	-o-order: 1;
+	order: 1;
+}
+
+.order-2 {
+	-webkit-order: 2;
+	-moz-order: 2;
+	-ms-order: 2;
+	-o-order: 2;
+	order: 2;
+}
+
+.order-3 {
+	-webkit-order: 3;
+	-moz-order: 3;
+	-ms-order: 3;
+	-o-order: 3;
+	order: 3;
+}
+
+.order-4 {
+	-webkit-order: 4;
+	-moz-order: 4;
+	-ms-order: 4;
+	-o-order: 4;
+	order: 4;
+}
+
+
+.border {
+	border: 1px solid #d5d5d5;
+}
+
+.border-top-bottom {
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+
+h1,
+h2,
+h3 {
+	font-size: 20px;
+	line-height: 21px;
+}
+
+.wrapper {
+	width: 920px;
+	margin: auto;
+}
+
+@media only screen and (max-width : 1200px) {
+	.wrapper {
+		width: 720px;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.wrapper {
+		width: 100%;
+		max-width: 750px;
+	}
+}
+
+/*Page Choose Mattrass*/
+/* Choose Matras */
+.list-style-none {
+	list-style: none;
+}
+
+.choose-prod table {
+	margin-top: 30px;
+	width: 100%;
+	font-size: 10px;
+	background-color: #fff;
+	border: 1px solid #d5d5d5;
+	border-collapse: collapse;
+}
+
+.choose-prod .bg-blue {
+	color: #fff;
+	background-color: #4EA1D3;
+}
+
+.choose-prod .bg-yellow {
+	background-color: #fff681;
+}
+
+.choose-prod .bg-green {
+	background-color: #61da60;
+}
+
+.choose-prod .bg-red {
+	background-color: #fdbfbf;
+}
+
+.choose-prod table td {
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 0;
+	font-size: 10px;
+}
+
+.choose-prod {
+	padding: 0 10px;
+}
+
+.choose-prod h2 {
+	padding-top: 30px;
+}
+
+.choose-prod ul li {
+	list-style-type: disc;
+}
+
+.choose-prod-header img {
+	width: 100%;
+	height: auto;
+}
+
+.choose-prod blockquote {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.choose-prod-sec {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.choose-prod-sec-cont {
+	width: 580px;
+}
+
+.choose-prod-sec-cont > img {
+	width: 100%;
+	height: auto;
+}
+
+.choose-prod-sec-cont ul {
+	padding-left: 20px;
+}
+
+.choose-prod-sec-cont li {
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.choose-prod-sec-info {
+	width: calc(100% - 600px);
+}
+
+.choose-prod-sec-info > div {
+	background-color: #FFFBF4;
+	padding: 30px;
+}
+
+.choose-prod-sec-info a {
+	display: inline-block;
+}
+
+.choose-prod-sec-info .custom-ic {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	border: 1px solid #454553;
+	font-size: 30px;
+	border-radius: 50%;
+	color: rgba(0,0,0,.4);
+	background-color: rgb(218,236,247);
+	margin-bottom: 20px;
+}
+
+.choose-prod-sec-info .custom-ic:before {
+	position: absolute;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.choose-prod-btn {
+	display: inline-block;
+  background-color: #4AA0D5;
+  padding: 3px;
+}
+
+.choose-prod-btn a {
+	display: inline-flex;
+  align-items: center;
+	height: 34px;
+	color: #fff;
+	text-shadow: 2px 2px 1px #454553, 0 0 15px rgba(255,255,255,.5);
+	background-color: #4AA0D5;
+	border: 1px dashed rgba(255,255,255,.5);
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+.choose-prod-btn a:hover {
+	text-decoration: none;
+	background-color: #3885B4;
+	color: #fff;
+}
+
+ul.choose-prod-list {
+	list-style: none;
+	padding: 0;
+}
+
+ul.choose-prod-list li {
+	padding-left: 0;
+}
+
+.choose-prod-list-itm {
+	display: flex;
+  align-items: flex-start;
+  margin: 20px 0 40px;
+}
+
+.choose-prod-list-itm h3 {
+	margin-top: 0;
+}
+
+.choose-prod-list-itm img{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+@media only screen and (max-width : 1200px) {
+	.choose-prod-sec-cont {
+		width: 500px;
+	}
+
+	.choose-prod-sec-info {
+		width: calc(100% - 520px);
+	}
+
+	.choose-prod-sec-info > div {
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.choose-prod-sec-cont {
+		width: 100%;
+	}
+
+	.choose-prod-sec-info {
+		display: none;
+	}
+}
+
+/*Choose Matrass Adition*/
+.choose-prod-rec-title {
+	margin: 15px 0;
+	font-size: 18px;
+	color: #333;
+}
+
+.choose-prod-rec-link {
+	margin-top: 15px;
+}
+.choose-prod-rec-link a {
+	text-decoration: underline;
+	color: #333;
+}
+
+.choose-prod-more {
+	margin: 0;	
+}
+
+.choose-prod-more ul {
+	list-style: none;
+	padding: 0 0 0 20px;
+	border-left: 4px solid #EB586F;
+}
+
+.choose-prod-more li {
+	margin: 5px 0;
+}
+
+.choose-prod-more li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #428bca;
+	border-bottom: 1px solid rgba(82,101,134,.3);
+}
+
+.choose-prod-more li a:hover {
+	border: none;
+}
+
+.choose-prod-more-title {
+	font-size: 18px;
+}
+
+.choose-prod-examples {
+	padding: 10px;
+	background-color: #EEEDED;
+	border: 1px solid #ccc;
+	border-left: 0;
+	border-right: 0;
+	text-align: center;
+}
